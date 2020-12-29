@@ -1,0 +1,9 @@
+---
+permalink: _redirects
+---
+
+{% for country in countries %}
+/ /{{ country }}/index.html 200 Country={{ country }}
+{% endfor %}
+
+/ /bg/index.html 404
