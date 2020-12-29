@@ -2,8 +2,8 @@
 permalink: _redirects
 ---
 
-{% for country in countries %}
+{%- for country in countries %}
 / /{{ country }}/index.html 200 Country={{ country }}
-{% endfor %}
+{%- endfor %}
 
 / /bg/index.html 404
